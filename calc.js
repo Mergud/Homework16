@@ -1,8 +1,5 @@
-/*
-Available figures: Square, Triangle, Circle
-*/
 var Sq = require('./calc_module');
-var figure = 'Square';
+var figure = '';
 var sq = new Sq(figure);
 
 sq.getSquare(2);
